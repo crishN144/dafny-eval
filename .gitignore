@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+*.tmp
+# never commit secrets
+.env
+*.env
+# local README backup (kept locally, not published)
+README.backup.md

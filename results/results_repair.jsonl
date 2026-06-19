@@ -1,0 +1,60 @@
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 3, "max_turns": 4, "solved": true, "turns": 2, "trajectory": ["RESOLUTION_ERROR", "FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 6, "max_turns": 4, "solved": true, "turns": 2, "trajectory": ["RESOLUTION_ERROR", "FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 7, "max_turns": 4, "solved": true, "turns": 2, "trajectory": ["RESOLUTION_ERROR", "FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 8, "max_turns": 4, "solved": false, "turns": 4, "trajectory": ["INVARIANT_NOT_MAINTAINED", "INVARIANT_NOT_MAINTAINED", "INVARIANT_ENTRY_FAIL", "INVARIANT_NOT_MAINTAINED"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-haiku-4-5", "trial": 9, "max_turns": 4, "solved": false, "turns": 4, "trajectory": ["RESOLUTION_ERROR", "INVARIANT_NOT_MAINTAINED", "INVARIANT_ENTRY_FAIL", "INVARIANT_NOT_MAINTAINED"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 3, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 6, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 7, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 8, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-sonnet-4-6", "trial": 9, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 3, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 6, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 7, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 8, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p6_max_profit", "model": "anthropic:claude-opus-4-8", "trial": 9, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 3, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 6, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 7, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 8, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-haiku-4-5", "trial": 9, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 3, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 6, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 7, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 8, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-sonnet-4-6", "trial": 9, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 0, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 1, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 2, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 3, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 4, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 5, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 6, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 7, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 8, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}
+{"problem": "p8_compose_clamp", "model": "anthropic:claude-opus-4-8", "trial": 9, "max_turns": 4, "solved": true, "turns": 1, "trajectory": ["FULL_SUCCESS"]}

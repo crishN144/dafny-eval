@@ -1,0 +1,30 @@
+name: ci
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04          # matches the official Dafny 4.11.0 Linux build installed below
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install the exact Dafny the classifier was calibrated against (versions.lock),
+      # straight from the official release. The build is self-contained (bundles its
+      # own .NET runtime + Z3), so there is no third-party setup action to drift or break.
+      - name: Install Dafny 4.11.0
+        run: |
+          curl -fsSL -o dafny.zip \
+            https://github.com/dafny-lang/dafny/releases/download/v4.11.0/dafny-4.11.0-x64-ubuntu-22.04.zip
+          unzip -q dafny.zip
+          echo "$GITHUB_WORKSPACE/dafny" >> "$GITHUB_PATH"
+      - run: dafny --version
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No API key needed: this re-verifies the references and re-checks every
+      # classifier string against ground-truth probes on each push.
+      - name: calibrate + selftest
+        run: |
+          python3 dafny_eval.py calibrate
+          python3 dafny_eval.py selftest

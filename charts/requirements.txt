@@ -1,0 +1,4 @@
+# Figure generation only — the eval harness itself is stdlib-only.
+# Setup:  python3 -m venv .venv && .venv/bin/pip install -r charts/requirements.txt
+# Render: .venv/bin/python charts/make_figures.py
+matplotlib>=3.8

@@ -1,0 +1,11 @@
+# Toolchain pinned for reproducibility — captured 2026-06-18
+dafny:   4.11.0                  # /opt/homebrew/bin/dafny  (Homebrew, arm64)
+z3:      bundled-with-dafny-4.11.0
+os:      macOS 14.6 (arm64)
+
+# Observed exit codes (Dafny RM does NOT formally guarantee these — classifier keys on stdout):
+#   success            -> 0
+#   verification error -> 4
+#
+# Classifier message strings are calibrated against THIS version.
+# Re-run `make calibrate` after any Dafny bump and diff tests/calibration/ output.
