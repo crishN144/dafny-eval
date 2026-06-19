@@ -278,4 +278,12 @@ Makefile                 `make demo` = calibrate + selftest + guardtest (no API 
 
 ## Prior Art
 
-DafnyBench (Loughridge et al.) · Clover (arXiv:2310.17807) · DafnyPro (arXiv:2601.05385).
+This benchmark builds on a line of work applying LLMs to Dafny verification:
+
+- **[Dafny](https://dafny.org)** (Leino, LPAR 2010): the auto-active verifier (Boogie + Z3) this benchmark targets.
+- **[DafnyBench](https://arxiv.org/abs/2406.08467)** (Loughridge et al., 2024): the largest Dafny verification benchmark; LLMs restore proof hints with retry-on-error feedback.
+- **[Clover](https://arxiv.org/abs/2310.17807)** (Sun et al., 2024): closed-loop consistency checking across code, spec, and docstring; ships the CloverBench annotated-Dafny set.
+- **[Laurel](https://arxiv.org/abs/2405.16792)** (Mugnier et al., 2024): LLM-generated Dafny helper assertions, located from verifier error messages; releases the DafnyGym dataset.
+- **[dafny-annotator](https://arxiv.org/abs/2411.15143)** (Poesia, Loughridge & Amin, 2024): LLM plus search inserts annotations until the verifier proves the method; introduces the DafnySynth synthetic corpus.
+- **[Towards AI-Assisted Synthesis of Verified Dafny Methods](https://arxiv.org/abs/2402.00247)** (Misu et al., FSE 2024): LLM synthesis of specifications and code for MBPP-derived Dafny methods.
+- **[DafnyPro](https://arxiv.org/abs/2601.05385)** (Banerjee, Bouissou & Zetzsche, 2026): inference-time framework (diff-checker, invariant pruner, hint augmentation) that lifts LLM Dafny proof rates.
